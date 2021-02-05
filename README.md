@@ -1,7 +1,3 @@
-# hello-world
-Repository made using the GitHub Tutorial
-Thing thing thing
+# Main Menu
 
-Lots of info
-
-Wheeeeeeee
+<a href="https://slkrqkr.github.io/MathDrills/IntegersBeginner/">Integers Beginner</a>
