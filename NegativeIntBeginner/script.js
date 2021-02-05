@@ -132,6 +132,9 @@ function randomizeNumbers() {
   //increaseScore();
   const firstRand = parseInt(Math.random() * 12 - 6);
   const secondRand = parseInt(Math.random() * 12 - 6);
+  if (firstRand == 0 && secondRand ==0){
+    randomizeNumbers()
+  };
   document.getElementById('firstNumber').innerHTML = firstRand;
   document.getElementById('secondNumber').innerHTML = secondRand;
   firstNumber = firstRand;
